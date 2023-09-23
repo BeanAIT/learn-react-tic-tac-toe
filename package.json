@@ -6,6 +6,7 @@
   },
   "main": "/index.js",
   "devDependencies": {
+    "@babel/standalone": "^7.22.20",
     "react-scripts": "1.0.0"
   },
   "name": "tic-tac-toe",
