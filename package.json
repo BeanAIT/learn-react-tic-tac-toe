@@ -6,8 +6,7 @@
   },
   "main": "/index.js",
   "devDependencies": {
-    "@babel/standalone": "^7.22.20",
-    "react-scripts": "1.0.0"
+    "@babel/standalone": "^7.22.20"
   },
   "name": "tic-tac-toe",
   "description": "A game of tic tac toe",
@@ -17,5 +16,17 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
